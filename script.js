@@ -1,8 +1,6 @@
 const cards = [
-    { front: 'img', back: 'France — Paris' },
-    { front: '🇯🇵', back: 'Japan — Tokyo' },
-    { front: '🇧🇷', back: 'Brazil — Brasília' },
-    { front: '🇰🇿', back: 'Kazakhstan — Astana' }
+    { front: <'img = src/france.jpg'> , back: 'France — Paris' },
+    { front: 'src/jpn.png', back: 'Japan — Tokyo' },
   ];
   let currentIndex = 0;
   
@@ -12,7 +10,10 @@ const cards = [
   
   function nextCard() {
     currentIndex = (currentIndex + 1) % cards.length;
-    document.getElementById('front').textContent = cards[currentIndex].front;
-    document.getElementById('back').textContent = cards[currentIndex].back;
+    document.getElementById('front').innerHTML = cards[currentIndex].front;
+    document.getElementById('back').innerHTML = cards[currentIndex].back;
     document.getElementById('card').classList.remove('flip');
   }
+
+
+

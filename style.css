@@ -21,8 +21,8 @@ body {
     margin-top: 50px;
   }
   .card {
-    width: 200px;
-    height: 120px;
+    width: 500px;
+    height: 500px;
     margin: 0 auto;
     perspective: 1000px;
     position: relative;
