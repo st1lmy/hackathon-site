@@ -1,4 +1,3 @@
-
 const cards = [
     { front: '<img src = "src/france.jpg">', back: 'France ' },
     { front: '<img src = "src/jpn.png">', back: 'Japan ' },
@@ -12,14 +11,19 @@ const cards = [
   
   function flipCard() {
     document.getElementById('card').classList.toggle('flip');
-    flipBtn.addEventListener('click', () => {
-      cardEl.classList.toggle('flipped');
-      // проигрываем звук
-      flipSound.currentTime = 0;  // сбросить на начало
-      flipSound.play('src/Audio.mp3');
-    });
-    
   }
+  
+  function playAudio() {
+    const sound = document.getElementById('sound');
+    sound.currentTime = 0;
+    sound.play();
+  }
+  
+  function flipCardAndPlay() {
+    flipCard();
+    playAudio();
+  }
+  
   
   function nextCard() {
     currentIndex = (currentIndex + 1) % cards.length;
