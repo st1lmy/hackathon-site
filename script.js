@@ -40,6 +40,26 @@ const cards = [
     document.getElementById('card').classList.remove('flip');
   }
 
+  let isFlipped = false; // следим за состоянием карточки
+
+function flipCardAndPlay() {
+  const card = document.getElementById('card');
+  const sound = document.getElementById('sound');
+
+  // Если карточка НЕ перевёрнута — переворачиваем и воспроизводим звук
+  if (!isFlipped) {
+    card.classList.add('flip');
+    sound.currentTime = 0;
+    sound.play();
+    isFlipped = true;
+  } else {
+    // Если уже перевёрнута — просто переворачиваем обратно БЕЗ звука
+    card.classList.remove('flip');
+    isFlipped = false;
+  }
+}
+
+
   // при клике «Показать ответ»:
 
 
