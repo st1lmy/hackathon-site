@@ -1,38 +1,76 @@
-// Карточки для трёх разделов
 const cards = [
-  { front1: '<img src="america/france.jpg">', back1: 'France' },
-  { front1: '<img src="america/jpn.png">', back1: 'Japan' },
-  { front1: '<img src="america/italy.png">', back1: 'Italy' },
-  { front1: '<img src="america/uk.png">', back1: 'UK' },
-  { front1: '<img src="america/japan_tokyo.jpg">', back1: 'Japan — Tokyo' },
-  { front1: '<img src="america/japan_tokyo.jpg">', back1: 'Japan — Tokyo' },
-  { front1: '<img src="america/japan_tokyo.jpg">', back1: 'Japan — Tokyo' },
+  { front1: '<img src="america/argentina.webp">', back1: 'Argentina' },
+  { front1: '<img src="america/bolivia.svg">', back1: 'Bolivia' },
+  { front1: '<img src="america/brazil.png">', back1: 'Brazil' },
+  { front1: '<img src="america/canada.svg">', back1: 'Canada' },
+  { front1: '<img src="america/chili.svg">', back1: 'Chili' },
+  { front1: '<img src="america/dominica.png">', back1: 'Dominica' },
+  { front1: '<img src="america/Ecuador.svg">', back1: 'Ecuador' },
+  { front1: '<img src="america/Gonduras.webp">', back1: 'Gonduras' },
+  { front1: '<img src="america/Grenada.png">', back1: 'Grenada' },
+  { front1: '<img src="america/Mexico.webp">', back1: 'Mexico' },
+  { front1: '<img src="america/Paraguay.png">', back1: 'Paraguay' },
+  { front1: '<img src="america/Peru.png">', back1: 'Peru' },
+  { front1: '<img src="america/salvador.png">', back1: 'Salvador' },
+  { front1: '<img src="america/USA.webp">', back1: 'USA' },
+  { front1: '<img src="america/venezuela.webp">', back1: 'Venezuela' },
+  { front1: '<img src="america/barbados.svg">', back1: 'Barbados' },
+  { front1: '<img src="america/belize.svg">', back1: 'Belize' },
+  { front1: '<img src="america/nicaragua.png">', back1: 'Nicaragua' },
+  { front1: '<img src="america/suriname.svg">', back1: 'Suriname' },
+  { front1: '<img src="america/guatemala.png">', back1: 'Guatemala' },
 ];
 
 const cards2 = [
-  { front2: '<img src="eurasia/france.jpg">', back2: 'France' },
-  { front2: '<img src="eurasia/jpn.png">', back2: 'Japan' },
-  { front2: '<img src="eurasia/italy.png">', back2: 'Italy' },
-  { front2: '<img src="eurasia/uk.png">', back2: 'UK' },
+  { front2: '<img src="eurasia/andorra.jpeg">', back2: 'Andorra' },
+  { front2: '<img src="eurasia/armenia.jpeg">', back2: 'Armenia' },
+  { front2: '<img src="eurasia/austria.jpeg">', back2: 'Austria' },
   { front2: '<img src="eurasia/azerbaijan.jpg">', back2: 'Azerbaijan' },
-  { front2: '<img src="eurasia/japan_tokyo.jpg">', back2: 'Japan — Tokyo' },
-  { front2: '<img src="eurasia/japan_tokyo.jpg">', back2: 'Japan — Tokyo' },
+  { front2: '<img src="eurasia/Belarus.webp">', back2: 'Belarus' },
+  { front2: '<img src="eurasia/Cyprus.png">', back2: 'Cyprus' },
+  { front2: '<img src="eurasia/France.jpg">', back2: 'France' },
+  { front2: '<img src="eurasia/germany.jpg">', back2: 'Germany' },
+  { front2: '<img src="eurasia/italy.png">', back2: 'Italy' },
+  { front2: '<img src="eurasia/jpn.png">', back2: 'Japan' },
+  { front2: '<img src="eurasia/kazakhstan.jpg">', back2: 'Kazakhstan' },
+  { front2: '<img src="eurasia/norway.jpg">', back2: 'Norway' },
+  { front2: '<img src="eurasia/spain.jpeg">', back2: 'Spain' },
+  { front2: '<img src="eurasia/switzerland.jpeg">', back2: 'Switzerland' },
+  { front2: '<img src="eurasia/turkey.webp">', back2: 'Turkey' },
+  { front2: '<img src="eurasia/uk.png">', back2: 'UK' },
+  { front2: '<img src="eurasia/ukraine.webp">', back2: 'Ukraine' },
+  { front2: '<img src="eurasia/vatican.jpeg">', back2: 'Vatican' },
+  { front2: '<img src="eurasia/poland.png">', back2: 'Poland' },
+  { front2: '<img src="eurasia/finland.webp">', back2: 'Finland' },
 ];
 
 const cards3 = [
-  { front3: '<img src="africa/france.jpg">', back3: 'France' },
-  { front3: '<img src="africa/jpn.png">', back3: 'Japan' },
-  { front3: '<img src="africa/italy.png">', back3: 'Italy' },
-  { front3: '<img src="africa/uk.png">', back3: 'UK' },
-  { front3: '<img src="africa/japan_tokyo.jpg">', back3: 'Japan — Tokyo' },
-  { front3: '<img src="africa/japan_tokyo.jpg">', back3: 'Japan — Tokyo' },
-  { front3: '<img src="africa/japan_tokyo.jpg">', back3: 'Japan — Tokyo' },
+  { front3: '<img src="africa/algeria.svg">', back3: 'Algeria' },
+  { front3: '<img src="africa/angola.svg">', back3: 'Angola' },
+  { front3: '<img src="africa/Benin.svg">', back3: 'Benin' },
+  { front3: '<img src="africa/Botswana.png">', back3: 'Botswana' },
+  { front3: '<img src="africa/Burkina-Faso.svg">', back3: 'Burkina-Faso' },
+  { front3: '<img src="africa/Burundi.png">', back3: 'Burundi' },
+  { front3: '<img src="africa/Cameroon.png">', back3: 'Cameroon' },
+  { front3: '<img src="africa/cape-verde.png">', back3: 'Cape-Verde' },
+  { front3: '<img src="africa/Congo.png">', back3: 'Congo' },
+  { front3: '<img src="africa/Djibouti.png">', back3: 'Djibouti' },
+  { front3: '<img src="africa/DR-Congo.png">', back3: 'Democratic Republic of the Congo' },
+  { front3: '<img src="africa/Egypt.webp">', back3: 'Egypt' },
+  { front3: '<img src="africa/Gabon.svg">', back3: 'Gabon' },
+  { front3: '<img src="africa/Gambia.svg">', back3: 'Gambia' },
+  { front3: '<img src="africa/Ghana.png">', back3: 'Ghana' },
+  { front3: '<img src="africa/Guinea-Bissau.svg">', back3: 'Guinea-Bissau' },
+  { front3: '<img src="africa/Kenya.webp">', back3: 'Kenya' },
+  { front3: '<img src="africa/Komor.png">', back3: 'Komor' },
+  { front3: '<img src="africa/Zambia.png">', back3: 'Zambia' },
+  { front3: '<img src="africa/Zimbabwe.webp">', back3: 'Zimbabwe' },
 ];
 
-// Индексы карточек
+
 let currentIndex1 = 0;
-let currentIndex2 = 0; // <-- ИСПРАВЛЕНО: было "let 2 = 0;"
-let currentIndex3 = 0; // <-- ИСПРАВЛЕНО: было "let 3 = 0;"
+let currentIndex2 = 0; 
+let currentIndex3 = 0; 
 
 // CARD 1
 let isFlipped1 = false;
