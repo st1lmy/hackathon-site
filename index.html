@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countries flashcards</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Карточки</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+    <header>
+    <h1>GeoCards 🌍</h1>
+    <p>Учить географию — легко, когда в игре!</p>
+  </header>
+  <div class="card-container">
+    <div class="card" id="card">
+      <div class="front" id="front">🇫🇷 </div>
+      <div class="back" id="back">France — Paris</div>
+    </div>
+    <div class="controls">
+      <button onclick="flipCard()">Показать ответ</button>
+      <button onclick="nextCard()">Следующая</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
