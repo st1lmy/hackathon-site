@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Карточки</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -28,9 +31,10 @@
           <div class="back" id="back">France</div>
     </div>
     <div class="controls">
-        <button onclick="previousCard()">Предыдущяя</button>
-      <button onclick="flipCard()">Показать ответ</button>
-      <button onclick="nextCard()">Следующая</button>
+      <button class="btn-gradient" onclick="previousCard()">Предыдущяя</button>
+      <button class="btn-gradient"  onclick="flipCardAndPlay()" >Показать ответ</button>
+      <button class="btn-gradient" onclick="nextCard()">Следующая</button>
+      <audio id="sound"  src="src/audio.mp3"></audio>
     </div>
   </div>
 
