@@ -12,12 +12,6 @@ const cards = [
   
   function flipCard() {
     document.getElementById('card').classList.toggle('flip');
-    flipBtn.addEventListener('click', () => {
-      cardEl.classList.toggle('flipped');
-      // проигрываем звук
-      flipSound.currentTime = 0;  // сбросить на начало
-      flipSound.play('src/Audio.mp3');
-    });
     
   }
   
@@ -37,6 +31,7 @@ const cards = [
     document.getElementById('card').classList.remove('flip');
   }
 
+  // при клике «Показать ответ»:
 
 
 
