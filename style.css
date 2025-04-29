@@ -106,4 +106,9 @@ body {
     outline: none;
     color: #2575fc;
   }
+
+  .mainContainer{
+    display: flex;
+    justify-content: space-evenly;
+  }
   
