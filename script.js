@@ -1,6 +1,6 @@
 const cards = [
-    { front: <'img = src/france.jpg'> , back: 'France — Paris' },
-    { front: 'src/jpn.png', back: 'Japan — Tokyo' },
+    { front: '<img src = "src/france.jpg">', back: 'France — Paris' },
+    { front: '<img src = "src/jpn.png">', back: 'Japan — Tokyo' },``
   ];
   let currentIndex = 0;
   
