@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat";
     margin: 0;
@@ -8,15 +12,13 @@ body {
       to bottom,
       #DDE3DC, #F5F8F4
     );
-    height: 150vh;
+    height: 170vh;
   }
   header {
     padding: 50px;
   }
 
-  button{
-    padding: 100px;
-  }
+  
 
   .btn {
     display: inline-block;
@@ -169,6 +171,7 @@ body {
 }
 
 .navbar ul {
+  margin-left: auto;
   list-style: none;
   display: flex;
   margin: 0;
@@ -180,12 +183,13 @@ a {
 }
 
 .navbar ul li a {
-  margin-right: ;
+  margin-right: 10px;
   color: white;
   text-decoration: none;
   font-size: 16px;
   transition: color 0.3s;
 }
+
 
 .navbar ul li a:hover {
   color: #00bcd4;
@@ -210,6 +214,11 @@ a {
   width: 50px;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
 .logo{
-  margin-right: 73em;
+  margin-left: 10px;
 }
