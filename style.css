@@ -104,12 +104,13 @@ body {
   }
   .btn-underline:focus {
     outline: none;
-    color: #2575fc;
+    color: #ff4800;
   }
 
   .mainContainer{
     display: flex;
     justify-content: space-evenly;
+    background-color: #0077cc;
   }
   
   img{
