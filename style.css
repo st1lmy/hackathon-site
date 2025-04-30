@@ -175,11 +175,12 @@ body {
   padding: 0;
 }
 
-.navbar ul li {
-  margin-left: 20px;
+a {
+  max-width: 30px;
 }
 
 .navbar ul li a {
+  margin-left: 10px;
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -201,7 +202,14 @@ body {
     width: 100%;
   }
 
-  .navbar ul li {
-    margin: 10px 0;
-  }
+  
+}
+
+.lg{
+  border-radius: 9px;
+  width: 50px;
+}
+
+.logo{
+  margin-right: 73em;
 }

@@ -45,7 +45,7 @@ const cards2 = [
 ];
 
 const cards3 = [
-  { front3: '<img src="africa/algeria.svg">', back3: 'Алгерия' },
+  { front3: '<img src="africa/algeria.svg">', back3: 'Алжир' },
   { front3: '<img src="africa/angola.svg">', back3: 'Ангола' },
   { front3: '<img src="africa/Benin.svg">', back3: 'Бенин' },
   { front3: '<img src="africa/Botswana.png">', back3: 'Ботсвана' },
