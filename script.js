@@ -20,7 +20,7 @@ const cards = [
 ];
 
 const cards2 = [
-  { front2: '<img src="eurasia/andorra.jpeg">', back2: 'Андора' },
+  { front2: '<img src="eurasia/andorra.jpeg">', back2: 'Андорра' },
   { front2: '<img src="eurasia/armenia.jpeg">', back2: 'Армения' },
   { front2: '<img src="eurasia/austria.jpeg">', back2: 'Австрия' },
   { front2: '<img src="eurasia/azerbaijan.jpg">', back2: 'Азербайджан' },
@@ -44,7 +44,7 @@ const cards2 = [
 
 const cards3 = [
   { front3: '<img src="africa/algeria.svg">', back3: 'Алжир' },
-  { front3: '<img src="africa/angola.svg">', back3: 'Ангола' },
+  { front3: '<img src="africa/Angola.svg">', back3: 'Ангола' },
   { front3: '<img src="africa/Benin.svg">', back3: 'Бенин' },
   { front3: '<img src="africa/Botswana.png">', back3: 'Ботсвана' },
   { front3: '<img src="africa/Burkina-Faso.svg">', back3: 'Буркино Фасо' },
@@ -55,7 +55,7 @@ const cards3 = [
   { front3: '<img src="africa/Djibouti.png">', back3: 'Джибути' },
   { front3: '<img src="africa/DR-Congo.png">', back3: 'Демократическая Республика Конго' },
   { front3: '<img src="africa/Egypt.webp">', back3: 'Египет' },
-  { front3: '<img src="africa/Gabon.svg">', back3: 'Габон' },
+  { front3: '<img src="africa/gabon.svg">', back3: 'Габон' },
   { front3: '<img src="africa/Gambia.svg">', back3: 'Гамбия' },
   { front3: '<img src="africa/Ghana.png">', back3: 'Гана' },
   { front3: '<img src="africa/Guinea-Bissau.svg">', back3: 'Гвинея Бисау' },
