@@ -115,3 +115,35 @@ body {
   img{
     width: 20rem;
   }
+
+  .bgprlx {
+    background: url();
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.bgprlx .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 1;
+}
+
+.bgprlx .cntnt {
+    z-index: 2;
+}
+
+
+.pg {
+    padding: 100px 50px;
+}
