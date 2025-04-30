@@ -26,7 +26,7 @@ const cards2 = [
   { front2: '<img src="eurasia/armenia.jpeg">', back2: 'Армения' },
   { front2: '<img src="eurasia/austria.jpeg">', back2: 'Австрия' },
   { front2: '<img src="eurasia/azerbaijan.jpg">', back2: 'Азербайджан' },
-  { front2: '<img src="eurasia/Belarus.webp">', back2: 'Беларусь' },
+  { front2: '<img src="eurasia/Belarus.jpeg">', back2: 'Беларусь' },
   { front2: '<img src="eurasia/Cyprus.png">', back2: 'Кипр' },
   { front2: '<img src="eurasia/France.jpg">', back2: 'Франция' },
   { front2: '<img src="eurasia/germany.jpg">', back2: 'Германия' },
@@ -36,12 +36,12 @@ const cards2 = [
   { front2: '<img src="eurasia/norway.jpg">', back2: 'Норвегия' },
   { front2: '<img src="eurasia/spain.jpeg">', back2: 'Испания' },
   { front2: '<img src="eurasia/switzerland.jpeg">', back2: 'Швейцария' },
-  { front2: '<img src="eurasia/turkey.webp">', back2: 'Турция' },
+  { front2: '<img src="eurasia/turkey.jpg">', back2: 'Турция' },
   { front2: '<img src="eurasia/uk.png">', back2: 'Великобритания' },
-  { front2: '<img src="eurasia/ukraine.webp">', back2: 'Украина' },
+  { front2: '<img src="eurasia/ukraine.jpg">', back2: 'Украина' },
   { front2: '<img src="eurasia/vatican.jpeg">', back2: 'Ватикан' },
   { front2: '<img src="eurasia/poland.png">', back2: 'Польша' },
-  { front2: '<img src="eurasia/finland.webp">', back2: 'Финляндия' },
+  { front2: '<img src="eurasia/finland.jpg">', back2: 'Финляндия' },
 ];
 
 const cards3 = [
