@@ -11,92 +11,96 @@
 </head>
 <body>
     <header>
-    <h1>GeoCards 🌍</h1>
-    <p>Учить географию — легко, когда в игре!</p>
+      <h2>🌍 GeoCards — страны и флаги в одном месте</h2>
+      <h3>GeoCards — это удобный способ запомнить флаги и страны мира.
+        Никакой лишней информации — только визуальные карточки с флагами и названиями стран. Идеально для тех, кто учит географию, готовится к олимпиаде или просто хочет лучше ориентироваться в мире. Учиться можно легко, просто и в своём темпе.</h3>
   </header>
 
-  <h3>
-    GeoCard — это созданное нами веб-приложение через которое люди могут учить страны и их флаги более комфортно благодоря специальным интерактивным карточкам. 
-  </h3>
+  <div class="bgprlx">
+    <div class="cntnt">
+      <h1>GeoCards</h1>
+      <p>Учить географию — легко, когда в игре!</p>
+    </div>
+    <div class="mask">
+
+    </div>
+</div>
+
+
+
+
   <div class="mainContainer">
-    <div class="bgprlx">
-      <div class="cntnt">
-          
-        <!-- CONTAINER1 -->
+    
+    <!-- CONTAINER1 -->
     <div class="card-container">
     
-      <h2>
-          America
-      </h2>
-      <div class="card" id="card1">
-          <div class="front" id="front1">
-              <img id="front" src="america/argentina.webp" alt="Страна">
-            </div>
-            <div class="back" id="back1">France</div>
-      </div>
-      <div class="controls">
-        <button class="btn-underline" onclick="previousCard1()">Предыдущяя</button>
-        <button class="btn-underline"  onclick="flipCardAndPlay1()" >Показать ответ</button>
-        <button class="btn-underline" onclick="nextCard1()">Следующая</button>
-        <audio id="sound1"  src="audio.mp3"></audio>
-      </div>
-  
+    <h2>
+        America
+    </h2>
+    <div class="card" id="card1">
+        <div class="front" id="front1">
+            <img id="front" src="america/argentina.webp" alt="Страна">
+          </div>
+          <div class="back" id="back1">France</div>
     </div>
-    
-    <!-- CONTAINER2 -->
-    <div class="card-container">
-      
-      <h2>
-          Eurasia
-      </h2>
-      <div class="card" id="card2">
-          <div class="front" id="front2">
-              <img id="front" src="eurasia/france.jpg" alt="Страна">
-            </div>
-            <div class="back" id="back2">France</div>
-      </div>
-      <div class="controls">
-        <button class="btn-underline" onclick="previousCard2()">Предыдущяя</button>
-        <button class="btn-underline"  onclick="flipCardAndPlay2()" >Показать ответ</button>
-        <button class="btn-underline" onclick="nextCard2()">Следующая</button>
-        <audio id="sound2"  src="audio.mp3"></audio>
-      </div>
-      
+    <div class="controls">
+      <button class="btn-underline" onclick="previousCard1()">Предыдущяя</button>
+      <button class="btn-underline"  onclick="flipCardAndPlay1()" >Показать ответ</button>
+      <button class="btn-underline" onclick="nextCard1()">Следующая</button>
+      <audio id="sound1"  src="audio.mp3"></audio>
     </div>
-  
-    <!-- CONTAINER3 -->
-    <div class="card-container">
-      
-      <h2>
-          Africa
-      </h2>
-      <div class="card" id="card3">
-          <div class="front" id="front3">
-              <img id="front" src="africa/algeria.svg" alt="Страна">
-            </div>
-            <div class="back" id="back3">France</div>
-      </div>
-      <div class="controls">
-        <button class="btn-underline" onclick="previousCard3()">Предыдущяя</button>
-        <button class="btn-underline"  onclick="flipCardAndPlay3()" >Показать ответ</button>
-        <button class="btn-underline" onclick="nextCard3()">Следующая</button>
-        <audio id="sound3"  src="audio.mp3"></audio>
-      </div>
-      
-    </div>
-  
-    </div>
-    
-  
-  
-    
-    <script src="script.js"></script>
-  </body>
-  </html>
 
-      </div>
-      <div class="mask">
-
-      </div>
   </div>
+  
+  <!-- CONTAINER2 -->
+  <div class="card-container">
     
+    <h2>
+        Eurasia
+    </h2>
+    <div class="card" id="card2">
+        <div class="front" id="front2">
+            <img id="front" src="eurasia/france.jpg" alt="Страна">
+          </div>
+          <div class="back" id="back2">France</div>
+    </div>
+    <div class="controls">
+      <button class="btn-underline" onclick="previousCard2()">Предыдущяя</button>
+      <button class="btn-underline"  onclick="flipCardAndPlay2()" >Показать ответ</button>
+      <button class="btn-underline" onclick="nextCard2()">Следующая</button>
+      <audio id="sound2"  src="audio.mp3"></audio>
+    </div>
+    
+  </div>
+
+  <!-- CONTAINER3 -->
+  <div class="card-container">
+    
+    <h2>
+        Africa
+    </h2>
+    <div class="card" id="card3">
+        <div class="front" id="front3">
+            <img id="front" src="africa/algeria.svg" alt="Страна">
+          </div>
+          <div class="back" id="back3">France</div>
+    </div>
+    <div class="controls">
+      <button class="btn-underline" onclick="previousCard3()">Предыдущяя</button>
+      <button class="btn-underline"  onclick="flipCardAndPlay3()" >Показать ответ</button>
+      <button class="btn-underline" onclick="nextCard3()">Следующая</button>
+      <audio id="sound3"  src="audio.mp3"></audio>
+    </div>
+    
+  </div>
+
+  </div>
+
+  
+  
+
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
